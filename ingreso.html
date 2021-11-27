@@ -16,15 +16,15 @@
     
 </head>
 <body>
-    <form>
+    <form method="post" action="ingreso.php">
         <div class="form-group d1">
           <label for="exampleInputEmail1">Usuario</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <small id="emailHelp" class="form-text text-muted d4">        </small>
+          <input type="text" class="form-control" id="usuario" name= "usuario"aria-describedby="emailHelp">
+          <small id="text" class="form-text text-muted d4">        </small>
         </div>
         <div class="form-group d2">
           <label for="exampleInputPassword1">Contraseña</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <input type="password" class="form-control" id="exampleInputPassword1" name="contrasena">
         </div>
         
         <button type="submit" class="btn btn-primary btn ">Ingresar</button>
